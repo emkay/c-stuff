@@ -38,4 +38,15 @@ learn how to memorize the key core parts of a programming language.
 * Spend 30-60 minutes a day
 * Track what you don't know, drill those more.
 
+## Pointers
 
+### Practical Pointer Usage
+
+4 primary uses of pointers:
+
+* Ask the OS for a chunk of memory and use a pointer to work with it (strings or structs)
+* Pass large blocks of memory to functions with a pointer so you don't have to pass the whole thing
+* Take the address of a function so you can use it as a dynamic callback
+* Scan complex chunks of memory, converting bytes off of a network socket into a data structure or parsing files
+
+for almost everything else you should probably be using an array.
